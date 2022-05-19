@@ -21,4 +21,8 @@ public class SpringBootDemoApplication {
 	{
 		return "Hello world";
 	}
+	@GetMapping("/name")
+	public String name(){
+		return "Abhishek";
+	}
 }
